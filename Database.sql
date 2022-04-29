@@ -30,13 +30,13 @@ VALUES ('7', 'Bedidha Praneeth Sai', 'Bangalore', '9797979797');
 INSERT INTO Branch_Manager_Data (BMID, Name, Address, Phone_Number)
 VALUES ('8', 'Bindu Madhavi Gorle', 'Chennai', '9256347800');
 INSERT INTO Branch_Manager_Data (BMID, Name, Address, Phone_Number)
-VALUES ('9', 'Sai Sindhu ', 'Delhi', '9685741230');
+VALUES ('9', 'Sai Sindhu Ravullakollu', 'Vizag', '9494949494');
 INSERT INTO Branch_Manager_Data (BMID, Name, Address, Phone_Number)
-VALUES ('1', 'Aarav Singh', 'Delhi', '9685741230');
+VALUES ('10', 'Boddu Bhavana', 'Vijayawada', '9393939393');
 INSERT INTO Branch_Manager_Data (BMID, Name, Address, Phone_Number)
-VALUES ('1', 'Aarav Singh', 'Delhi', '9685741230');
+VALUES ('11', 'Pannem Vinisha', 'Kolkata', '9292929292');
 INSERT INTO Branch_Manager_Data (BMID, Name, Address, Phone_Number)
-VALUES ('1', 'Aarav Singh', 'Delhi', '9685741230');
+VALUES ('12', 'Chandra Prabhu P', 'Indore', '9191919191');
 
 select * from Branch_Manager_Data
 
@@ -50,6 +50,17 @@ create table Branch_Info (
 	Total_Balance numeric(9) Not Null,
 	Branch_Address varchar(25) Not Null
 )
+
+INSERT INTO Branch_Info (Branch_ID, Total_Balance, Branch_Address)
+VALUES ('1', '10000', 'Delhi');
+INSERT INTO Branch_Info (Branch_ID, Total_Balance, Branch_Address)
+VALUES ('2', '20000', 'Mumbai');
+INSERT INTO Branch_Info (Branch_ID, Total_Balance, Branch_Address)
+VALUES ('3', '30000', 'Hyderabad');
+INSERT INTO Branch_Info (Branch_ID, Total_Balance, Branch_Address)
+VALUES ('4', '40000', 'Chennai');
+INSERT INTO Branch_Info (Branch_ID, Total_Balance, Branch_Address)
+VALUES ('5', '50000', 'Bangalore');
 
 select * from Branch_Info
 
