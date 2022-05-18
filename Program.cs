@@ -40,7 +40,7 @@ class Banking_System
         Console.WriteLine("|{0}|", AlignText(0, ""));
         Console.WriteLine("|{0}|", AlignText(37, "1. Deposit Money"));
         Console.WriteLine("|{0}|", AlignText(37, "2. Withdraw Money"));
-        Console.WriteLine("|{0}|", AlignText(37, "3. Tranfer Money"));
+        Console.WriteLine("|{0}|", AlignText(37, "3. Transfer Money"));
         Console.WriteLine("|{0}|", AlignText(37, "4. My Passbook"));
         Console.WriteLine("|{0}|", AlignText(37, "5. Show My Account Details"));
         Console.WriteLine("|{0}|", AlignText(37, "6. Logout"));
